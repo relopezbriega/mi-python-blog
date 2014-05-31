@@ -1,4 +1,4 @@
-Title: Python - Librerías escenciales para el análisis de datos
+Title: Python - Librerías esenciales para el análisis de datos
 Date: 2014-05-28 
 Category: Python
 Tags: python
