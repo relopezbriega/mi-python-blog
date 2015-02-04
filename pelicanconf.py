@@ -23,7 +23,9 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 
 MENUITEMS = [('About', '/pages/acerca-de-mi.html'),
              ('Home Page', '/index.html'),             
-             ('Archives', '/archives.html')]
+             ('Archives', '/archives.html'),
+             ('Relopezbriega', 'http://relopezbriega.com.ar/'),
+             ('Matrix', '/matrix/')]
 
 # Blogroll
 LINKS =  (('Mi otro blog', 'http://relopezbriega.com.ar'),
@@ -46,7 +48,8 @@ PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.include_code', 'liquid_tags.notebook',
            'liquid_tags.literal']
 
-STATIC_PATHS = ['images', 'figures', 'downloads', 'pages', 'favicon.png']
+STATIC_PATHS = ['images', 'figures', 'downloads', 'pages', 
+                'favicon.png', 'matrix']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
