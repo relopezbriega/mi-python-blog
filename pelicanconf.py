@@ -25,7 +25,8 @@ MENUITEMS = [('About', '/pages/acerca-de-mi.html'),
              ('Home Page', '/index.html'),             
              ('Archives', '/archives.html'),
              ('Relopezbriega', 'http://relopezbriega.com.ar/'),
-             ('Matrix', '/matrix/')]
+             ('Matrix', '/matrix/'),
+             ('2048', '/2048/')]
 
 # Blogroll
 LINKS =  (('Mi otro blog', 'http://relopezbriega.com.ar'),
@@ -49,7 +50,7 @@ PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
            'liquid_tags.literal']
 
 STATIC_PATHS = ['images', 'figures', 'downloads', 'pages', 
-                'favicon.png', 'matrix']
+                'favicon.png', 'matrix', '2048']
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
