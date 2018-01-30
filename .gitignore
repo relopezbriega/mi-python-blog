@@ -1,0 +1,11 @@
+*.pyc
+*.csv
+*.pdf
+downloads/
+.ipynb_checkpoints/
+MLbooks/
+MNIST_data/
+__pycache__/
+data/
+datasets/
+stats/
