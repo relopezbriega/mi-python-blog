@@ -5,8 +5,9 @@ import os
 
 AUTHOR = u'Raul E. Lopez Briega'
 SITENAME = u'Raul E. Lopez Briega'
-SITESUBTITLE = u'Mi blog personal sobre python'
+SITESUBTITLE = u'Matemáticas, análisis de datos y python'
 SITEURL = ''
+DESCRIPTION = u'Todo sobre python aplicado a las ciencias. Análisis de datos, matemáticas, machine learning, inteligencia artificial, probabilidad y estadística'
 
 TIMEZONE = 'America/Argentina/Buenos_Aires'
 
@@ -24,19 +25,24 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 MENUITEMS = [('About', '/pages/acerca-de-mi.html'),
              ('Home Page', '/index.html'),             
              ('Archives', '/archives.html'),
-             ('Relopezbriega', 'http://relopezbriega.com.ar/'),
-             ('Matrix', '/matrix/'),
-             ('2048', '/2048/')]
+             ('Mi otro Blog', 'http://relopezbriega.com.ar/'),
+             ('IAAR Book', 'https://iaarbook.github.io/'),
+             ('2048', '/2048/'),
+             ('Contacto', '/contacto/')]
 
 # Blogroll
 LINKS =  (('Mi otro blog', 'http://relopezbriega.com.ar'),
+          ('IAAR Book', 'https://iaarbook.github.io/'),
 		  ('Pelican', 'http://getpelican.com/'),
           ('Python.org', 'http://python.org/'),
           ('Jinja2', 'http://jinja.pocoo.org/'),)
 
 # Social widget
-#SOCIAL = (('You can add links in your config file', '#'),
-#          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'https://twitter.com/relopezbriega'),
+          ('linkedin', 'https://ar.linkedin.com/in/relopezbriega'),
+          ('github', 'https://github.com/relopezbriega/'),)
+
+GITHUB_URL = 'https://github.com/relopezbriega/'
 
 DEFAULT_PAGINATION = 10
 
@@ -45,9 +51,11 @@ THEME = 'pelican-octopress-theme/'
 DISPLAY_PAGES_ON_MENU = False
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
-           'liquid_tags.include_code', 'liquid_tags.notebook',
-           'liquid_tags.literal']
+#PLUGINS = ['summary', 'liquid_tags.img', 'liquid_tags.video',
+#           'liquid_tags.include_code', 'liquid_tags.notebook',
+#           'liquid_tags.literal']
+
+PLUGINS = ['summary', 'liquid_tags.notebook']
 
 STATIC_PATHS = ['images', 'figures', 'downloads', 'pages', 
                 'favicon.png', 'matrix', '2048']
@@ -67,7 +75,7 @@ if not os.path.exists('_nb_header.html'):
     warnings.warn("_nb_header.html not found.  "
                   "Rerun make html to finalize build.")
 else:
-	EXTRA_HEADER = open('_nb_header.html').read().decode('utf-8')
+	EXTRA_HEADER = open('_nb_header.html').read() #.decode('utf-8')
 
 # Sharing
 TWITTER_USER = 'relopezbriega'
@@ -90,3 +98,5 @@ FEED_ATOM = 'atom.xml'
 
 # Search
 SEARCH_BOX = True
+
+#INDEX_SAVE_AS = 'blog_index.html'

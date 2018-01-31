@@ -1,0 +1,62 @@
+El Cálculo es una ciencia deductiva y una rama de la Matemática pura. Al mismo
+tiempo es muy importante recordar que el Cálculo tiene profundas raíces en pro-
+blemas físicos y que gran parte de su potencia y belleza deriva de la variedad de
+sus aplicaciones.
+La rama de la Matemática conocida por Cálculo integral y diferencial es un
+instrumento natural y poderoso para atacar múltiples problemas que surgen en
+Física, Astronomía, Ingeniería, Química, Geología, Biología, y en otros campos,
+Para dar una idea al lector de los muy diversos tipos de problemas que
+pueden tratarse por los métodos de Cálculo se expone a continuación una pe-
+queña muestra de cuestiones seleccionadas entre los ejercicios que aparecen en
+capítulos posteriores de este libro.
+¿Con qué velocidad debería ser impulsado un cohete para que nunca volviera
+a la Tierra? ¿Cuál es el radio del menor disco circular que cubra a todo triángulo
+isósceles de perímetro L? ¿Cuál es el volumen de material extraído de una esfera
+de radio 2r al atravesarla por un orificio cilíndrico de radio r cuyo eje pase por
+el centro de la esfera? Si un cultivo de bacterias crece en razón directa a la can-
+tidad que hay en cada instante, y la población se duplica en una hora, ¿en cuánto
+se habrá incrementado al cabo de dos horas? Si una fuerza de diez libras estira
+una cuerda elástica una pulgada, ¿qué trabajo se necesita para estirarla un pie?
+El Cálculo no sólo es un instrumento técnico, sino que contiene una colec-
+ción de ideas fascinadoras y atrayentes que han ocupado el pensamiento humano
+durante centurias. Estas ideas están relacionadas con velocidad, área, volumen,
+razón de crecimiento, tangente a una línea, y con otros conceptos referentes a
+otros dominios. El Cálculo obliga a detenerse y a pensar cuidadosamente acerca
+del significado de estos conceptos. Otro carácter notable del Cálculo es su poder 
+unificador. Muchos de estos problemas pueden ser formulados de manera que se
+reduzcan a otros problemas de naturaleza puramente geométrica.
+En el Cálculo se definen los con-
+ceptos de área y tangente y se calculan el área de una región dada y la pen-
+diente de la tangente a una curva dada. El Cálculo integral se ocupa del problema
+del área y será discutido en este capítulo 1. El Cálculo diferencial se ocupa del
+problema de la tangente
+
+historia
+
+El origen del Cálculo integral se remonta a más de 2000 años, cuando los
+griegos intentaban resolver el problema del área ideando el procedimiento
+que
+llamaron método de exhaución. Las ideas esenciales de este método son real-
+mente muy simples y se pueden describir brevemente como sigue: Dada una
+región cuya área quiere determinarse,
+se inscribe en ella una región poligonal
+que se aproxime a la dada y cuya área sea de fácil cálculo. Luego se elige otra
+región poligonal que dé una aproximación
+mejor y se continúa el proceso to-
+mando polígonos con mayor número de lados cada vez, tendiendo a llenar la
+región dada. La figura 1.2 es una ilustración del método en el caso de una región
+semicircular.
+Este método fue usado satisfactoriamente
+por Arquímedes
+(287-
+212 A.C.) para hallar fórmulas exactas de las áreas del círculo y de algunas
+otras figuras especiales.
+Desde Arquímedes,Gradualmente, el método de exhaución fue transformándose en lo que hoy
+se conoce como Cálculo integral,
+
+Hay muchas formas de estructurar el Cálculo como sistema deductivo. Una
+manera posible, es tomar los números reales como conceptos no definidos o primi-
+tivos. Algunas de las reglas que rigen las operaciones con los números reales
+pueden tomarse como axiomas. Este sistema de axiomas se ha incluido en la
+parte 3 de esta introducción. Nuevos conceptos, tales como integral, límite, conti-
+nuidad, derivada, pueden definirse a partir de los números reales.
