@@ -28,7 +28,7 @@ MENUITEMS = [('About', '/pages/acerca-de-mi.html'),
              ('Mi otro Blog', 'http://relopezbriega.com.ar/'),
              ('IAAR Book', 'https://iaarbook.github.io/'),
              ('2048', '/2048/'),
-             ('Contacto', '/contacto/')]
+             ('Contacto', '/pages/contacto.html')]
 
 # Blogroll
 LINKS =  (('Mi otro blog', 'http://relopezbriega.com.ar'),
