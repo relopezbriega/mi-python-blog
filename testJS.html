@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Test JS</h2>
+
+<button onclick="adivinar_nombres()">Jugar!</button>
+
+<script>
+function adivinar_numero(){
+    var numero_a_adivinar = Math.floor(Math.random()*1000);
+    var bits = 1;
+    var numero_usuario = prompt("Adivine un número entero entre 1 y 1000\nIngrese un número entre 1 y 1000: ");
+
+    while (numero_usuario != numero_a_adivinar) {
+        if (numero_usuario < numero_a_adivinar) {
+            numero_usuario = prompt("Su número es muy bajo!\nIngrese otro número entre 1 y 1000:");
+            bits++;
+        } else {
+            numero_usuario = prompt("Su número es muy alto!\nIngrese otro número entre 1 y 1000:");
+            bits++;
+        }
+    }
+    alert("Felicidades el número es " + numero_usuario + " y ha utilizado " + bits + " bits!");
+}
+</script>
+
+<script>
+function adivinar_nombres(){
+  var nombres_R = [
+    "ramses", "rodolfo", "regina", "ruth", "ramiro",
+    "ramon", "roxana", "rebeca", "raquel", "ruben",
+    "rosario", "renata", "raul", "romina", "roberto",
+    "ricardo", "rafael", "rosa", "rodrigo", "rocio"
+  ]
+  var index = Math.floor(Math.random()*20) - 1;
+  var mi_nombre = nombres_R[index];
+  var bits = 1;
+  var tu_nombre = prompt("Adivina el nombre! Empieza con R y tiene " + mi_nombre.length + " letras: ").toLowerCase();
+  var letras = 2;
+  while (mi_nombre != tu_nombre) {
+    mi_nombre_parcial = mi_nombre.substring(0, letras);
+    if (mi_nombre_parcial === mi_nombre) {
+      break;
+    }
+    tu_nombre = prompt("Inténtalo otra vez! Empieza con " + mi_nombre_parcial + " y tiene "+ mi_nombre.length + " letras: ").toLowerCase();
+    bits++;
+    letras++;
+
+  }
+
+  alert("El nombre es " + mi_nombre.toUpperCase() + "! y has utilizado " + bits + " bits! Los restantes " + (mi_nombre.length - bits) + " son redundantes!" );
+}
+</script>
+
+</body>
+</html>
