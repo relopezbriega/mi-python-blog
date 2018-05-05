@@ -1,9 +1,8 @@
-#Title: Sistemas dinámicos, complejidad y caos con Python
-Date: 2017-11-23
+Title: Complejidad, Caos y Fractales con Python
+Date: 2018-05-03
 Author: Raul E. Lopez Briega
 Category: Matematica
 Tags: python, sistemas dinamicos, incertidumbre, matematica, caos, fractales
-Description: Sistemas dinámicos, complejidad y caos con Python. Introducción. ¿Qué son los sitemas complejos?. Características. Fractales. Geometría de la Naturaleza. Mapas logístios. Mandelbrot. Juego del caos. Diagramas de fases. Azar e incertidumbre. Números complejos.
-
+Description: Complejidad, Caos y Fractales con Python. Introducción. ¿Qué es un sistema complejo?. ¿Qué es la teoría del caos?. El efecto mariposa. Ley potencial. El mapa logístico. El extraño atractor de Lorenz. Sistemas Adaptativos. Fractales y la geometría de la naturaleza. El juego del caos de Barnsly
 
 {% notebook pyComplexity.ipynb cells[2:] %}
