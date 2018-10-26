@@ -177,20 +177,4 @@ init_mathjax = function() {
 }
 init_mathjax();
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-    $("div.collapseheader").click(function () {
-    $header = $(this).children("span").first();
-    $codearea = $(this).children(".input_area");
-    console.log($(this).children());
-    $codearea.slideToggle(500, function () {
-        $header.text(function () {
-            return $codearea.is(":visible") ? "Ocultar Código" : "Ver Código";
-        });
-    });
-});
-});
-</script>
 

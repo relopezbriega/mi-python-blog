@@ -55,7 +55,7 @@ PLUGIN_PATHS = ['pelican-plugins']
 #           'liquid_tags.include_code', 'liquid_tags.notebook',
 #           'liquid_tags.literal']
 
-PLUGINS = ['summary', 'liquid_tags.notebook']
+PLUGINS = ['summary', 'liquid_tags.notebook', 'tipue_search']
 
 STATIC_PATHS = ['images', 'figures', 'downloads', 'pages', 
                 'favicon.png', 'matrix', '2048']
@@ -97,6 +97,13 @@ FEED_ATOM = 'atom.xml'
 
 
 # Search
-SEARCH_BOX = True
+#SEARCH_BOX = True
+TIPUE_SEARCH = True
+
+#TEMPLATE_PAGES = {
+#        'search.html': 'search.html',
+#        }
+
+DIRECT_TEMPLATES = ['index', 'tags', 'categories', 'authors', 'archives', 'search']
 
 #INDEX_SAVE_AS = 'blog_index.html'
